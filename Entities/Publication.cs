@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities
+{
+    public class Publication
+    {
+        public int PublicationID { get; set; }
+
+
+        public int PublicationYear { get; set; }
+
+        public List<Book> Book { get; set; }
+    }
+}
